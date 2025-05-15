@@ -42,7 +42,7 @@
                 <nav class="nav nav-masthead justify-content-center float-md-end">
                     <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Home</a>
                     <a class="nav-link" href="{{ route('login') }}">Login</a>
-                    <a class="nav-link" href="{{ route('index') }}">Register</a>
+                    <a class="nav-link" href="{{ route('register') }}">Register</a>
                 </nav>
             </div>
         </header>
@@ -51,7 +51,7 @@
             <p class="lead">Welcome to Link Hub—your gateway to seamless connectivity! Explore, connect, and elevate
                 your digital experience with ease. </p>
             <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary fw-bold border-white text-black">Get Start</a>
+                <a href="{{ route('register') }}" class="btn btn-lg btn-secondary fw-bold border-white text-black">Get Start</a>
             </p>
         </main>
         <footer class="mt-auto text-white-50">
