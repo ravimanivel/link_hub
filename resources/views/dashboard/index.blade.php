@@ -20,14 +20,14 @@
                                 <h3>{{ $totalLinks }}</h3>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        {{-- <div class="col-md-4">
                             <div class="p-3 bg-light rounded shadow-sm">
                                 <h5>Total Views</h5>
                                 @foreach ($totalViews as $total)
                                     <h3>{{ $total->views }}</h3>
                                 @endforeach
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="col-md-4">
                             <div class="p-3 bg-light rounded shadow-sm">
                                 <h5>Top 5 Clicked Links</h5>
