@@ -41,7 +41,7 @@
 
                         <div class="col-md-12 text-center">
 
-                            <p class="alert alert-info"> Your Public Link <a href="{{ env('APP_URL') }}/{{ $user_name }}" target="_blank">{{ env('APP_URL') }}/{{ $user_name }}</a></p>
+                            <p class="alert alert-info"> Your Public Link <a href="{{ env('APP_URL') }}/link/{{ $user_name }}" target="_blank">{{ env('APP_URL') }}/{{ $user_name }}</a></p>
 
                         </div>
                     </div>
