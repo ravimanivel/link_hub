@@ -41,7 +41,7 @@
 
                         <div class="col-md-12 text-center">
 
-                            <p class="alert alert-info"> Your Public Link <a href="http://localhost:8000/link/{{ $user_name }}" target="_blank">http://localhost:8000/link/{{ $user_name }}</a></p>
+                            <p class="alert alert-info"> Your Public Link <a href="https://linkhub-production.up.railway.app/link/{{ $user_name }}" target="_blank">https://linkhub-production.up.railway.app/link/{{ $user_name }}</a></p>
 
                         </div>
                     </div>
