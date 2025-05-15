@@ -26,7 +26,7 @@
 
     <p>the page you are looking for not avaible!</p>
 
-    <a href="{{ route('dashboard') }}" class=" link_404 ">Go to Home</a>
+    <a href="{{ route('index') }}" class=" link_404 ">Go to Home</a>
   </div>
     </div>
     </div>
