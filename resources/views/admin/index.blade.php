@@ -26,6 +26,7 @@
                             <tr>
                                 <th>ID</th>
                                 <th>Name</th>
+                                <th>Username</th>
                                 <th>Email</th>
                                 <th>Views</th>
                                 <th>Actions</th>
@@ -37,6 +38,7 @@
                                 <tr>
                                     <td>@php echo $i++ ; @endphp</td>
                                     <td>{{ $user->name }}</td>
+                                    <td>{{ $user->username }}</td>
                                     <td>{{ $user->email }}</td>
                                     <td>{{ $user->views }}</td>
                                     <td>
